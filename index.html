@@ -20,6 +20,10 @@
     <script type="text/javascript" src="js/config.js"></script>
     <script type="text/javascript" src="js/utils.js"></script>
 
+    <script type="text/javascript" src="compoments/left-nav.js"></script>
+
+
+
   </head>
   <body >
   <div id="container"></div>
@@ -27,25 +31,9 @@
   <button onclick="loadData('test2.md')">click2</button>
   <div id="content"></div>
   <script type="text/babel">
-     var Comment = React.createClass({
-          render: function() {
-          var commentNodes = this.props.data.map(function(comment) {
-              return (
-                <div>
-                    <h1>{comment.name}</h1>
-                    <h2>{comment.age}</h2>
-                </div>
-              );
-         });
-            return (
-              <div >
-                 {commentNodes}
-             </div>
-            );
-          }
-      });
+      var LeftNav = require('LeftNav');
       ReactDOM.render(
-      <Comment author="fas" data={data} ></Comment>,
+      <LeftNav author="fas" data={data} ></LeftNav>,
         document.getElementById('container')
       );
     </script>
