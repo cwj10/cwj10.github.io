@@ -112,11 +112,9 @@ header{
   background: #ccc;
   color: #ea6753
 }
-.test1{
-
-  color: #123456;
-}
-.test2{
-
-  color: red;
+.article-detail{
+  width: 75%;
+  margin: 20px auto;
+  box-shadow: 0 0 4px #888;
+  padding: 26px 24px;
 }

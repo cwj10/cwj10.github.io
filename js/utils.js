@@ -5,7 +5,7 @@
 var loadData = function(name){
     $.ajax({
         type: "get",
-        url:"./data/"+name,
+        url:"../data/android/"+name,
         success: function(data){
             var md = window.markdownit();
             var result = md.render(data);
