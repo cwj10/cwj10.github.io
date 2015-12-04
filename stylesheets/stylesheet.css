@@ -1,0 +1,122 @@
+
+@font-face {font-family:myFont; src: url("../font/CoveredByYourGrace.ttf")}
+body{
+  background-color:#f0f0f0;
+}
+header{
+  background-image: -moz-linear-gradient(top, rgba(117, 209, 255, 0.9) 0%, rgba(117, 209, 255, 0.9) 40%, rgba(117, 209, 255, 0.9) 98%, rgba(117, 209, 255, 0.9) 100%);
+  background-image: -webkit-linear-gradient(top, rgba(117, 209, 255, 0.9) 0%, rgba(117, 209, 255, 0.9) 40%, rgba(117, 209, 255, 0.9) 98%, rgba(117, 209, 255, 0.9) 100%);
+  color: #fff;
+  padding: 1.8em  0.8em;
+  box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
+}
+
+.header{
+  width: 86%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.logo{
+  width: 5.5em;
+  float: left;
+}
+.text-logo{
+  float: left;
+  width: 85%;
+  margin-left: 0.5em;
+  margin-top: 1.8em;
+}
+.text-logo h2{
+  margin-top: 0.2em;
+}
+.site-name a{
+  font-family: myFont;
+  color: #fff;
+  font-size: 180%;
+}
+.header nav{
+  float: right;
+  width: auto;
+  margin-top: 1em;
+  max-height: none;
+}
+.header nav ul li {
+  float: left;
+}
+.header nav ul li a{
+  color: #fff;
+  padding: 0.2em 1.5em;
+}
+.header nav ul li a:hover {
+  background: rgba(98, 196, 245, 0.6);
+}
+
+.main{
+  width: 75%;
+  margin: 0 auto;
+  box-shadow: 0 0 4px #888;
+  margin-top: 32px;
+  margin-bottom: 100px;
+}
+.main ul li{
+  background: #fafafa;
+  margin-bottom: 0.125em;
+}
+
+.item{
+  display: inline-block;
+  border-left:#ccc solid 0.5em;
+  padding: 16px;
+}
+.item:hover {
+  border-left: 0.5em solid #ea6753;
+}
+.item h1{
+  color: #2ca6cb;
+  line-height: 2;
+}
+.item p{
+  color: #817c7c;
+  line-height: 1.8;
+}
+.item time{
+  color: #817c7c;
+  display: block;
+  margin: 0.5em 0;
+  font-size: 0.9em;
+}
+.page-nav{
+  text-align: center;
+  overflow: hidden;
+  background: #fff;
+}
+.page-nav .prev {
+  float: left;
+  border-left:#ccc solid 0.5em;
+}
+.page-nav .prev:hover {
+  border-left: 0.5em solid #ea6753;
+  background: #ccc;
+  color: #ea6753
+}
+.page-nav a {
+  color: #2ca6cb;
+  display: inline-block;
+  padding: 0.5em 1em;
+}
+.page-nav .next {
+  float: right;
+}
+.page-nav a:hover {
+  background: #ccc;
+  color: #ea6753
+}
+.test1{
+
+  color: #123456;
+}
+.test2{
+
+  color: red;
+}
