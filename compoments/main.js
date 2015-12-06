@@ -15,7 +15,7 @@ var BlogHeader = React.createClass({
           </div>
           <nav className="animated">
             <ul>
-              <li><a href="#">主页 | Home</a></li>
+              <li><a href="../index.html">主页 | Home</a></li>
               <li><a href="#">索引 | Index</a></li>
               <li><a href="#">简介 | About</a></li>
             </ul>
@@ -24,7 +24,7 @@ var BlogHeader = React.createClass({
       </header>
     )
   }
-})
+});
 
  var ArticleItem = React.createClass({
    articleDetail:function(id){
