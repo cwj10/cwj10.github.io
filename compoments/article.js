@@ -14,7 +14,7 @@ var BlogHeader = React.createClass({
             <ul>
               <li><a href="../index.html">主页 | Home</a></li>
               <li><a href="#">索引 | Index</a></li>
-              <li><a href="#">简介 | About</a></li>
+              <li><a href="../view/about.html">简介 | About</a></li>
             </ul>
           </nav>
         </div>
