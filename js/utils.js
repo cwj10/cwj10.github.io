@@ -2,10 +2,10 @@
  * Created by cwj on 2015/11/19.
  */
 
-var loadData = function(name){
+var loadData = function(path){
     $.ajax({
         type: "get",
-        url:"../data/android/"+name,
+        url:"../data/"+path,
         success: function(data){
             var md = window.markdownit();
             var result = md.render(data);

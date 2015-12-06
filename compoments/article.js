@@ -45,11 +45,11 @@ var ArticleDetail = React.createClass({
     }
     var data = getArticle(newId);
     this.setState({article:data.article,preArticle:data.preArticle,preStyle:data.preStyle,nextArticle:data.nextArticle,nextStyle:data.nextStyle});
-    loadData(data.article.title+'.md');
+    loadData(data.article.path);
   }
   ,
   componentDidMount: function() {
-    loadData(this.state.article.title+'.md');
+    loadData(this.state.article.path);
   },
   render:function(){
     return (
