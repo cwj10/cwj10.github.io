@@ -27,7 +27,7 @@ var ArticleDetail = React.createClass({
 
   getInitialState: function() {
      var id= parseInt(GetQueryString("id"));
-
+    console.log(getArticle(id));
      return getArticle(id);
   },
 
@@ -35,15 +35,16 @@ var ArticleDetail = React.createClass({
     e.preventDefault();
     var tag = e.target.getAttribute("value");
     var article = this.state.article;
-    var id= article.id;
-    var newId = 0;
+    var id= 1;
+    var preId = this.state.preArticle.id;
+    var nextId = this.state.nextArticle.id;
     if(tag && tag == 'pre'  ){
-        newId = id - 1;
+        id = preId;
     }
     if(tag && tag == 'next'  ){
-      newId = id + 1;
+      id = nextId;
     }
-    var data = getArticle(newId);
+    var data = getArticle(id);
     this.setState({article:data.article,preArticle:data.preArticle,preStyle:data.preStyle,nextArticle:data.nextArticle,nextStyle:data.nextStyle});
     loadData(data.article.path);
   }

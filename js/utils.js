@@ -21,12 +21,22 @@ function GetQueryString(name)
      var r = window.location.search.substr(1).match(reg);
      if(r!=null)return  unescape(r[2]); return null;
 }
+function getArticleIndexById(id){
+  var index = 0;
+  for (var i in ARTICLES) {
+    if (ARTICLES[i].id == id) {
+      index = i;
+      break;
+    }
+  }
+  return parseInt(index);
+}
 function getArticle(id){
-  var id= parseInt(id);
-  var article = ARTICLES[id-1];
+  var id= getArticleIndexById(id);
+  var article = ARTICLES[id];
   var len = ARTICLES.length;
-  var preIndex = id-2;
-  var nextIndex = id;
+  var preIndex = id-1;
+  var nextIndex = id+1;
   var preArticle = DEFAULT_ARTICLE;
   var nextArticle = DEFAULT_ARTICLE;
   var preStyle = 'display-none';
