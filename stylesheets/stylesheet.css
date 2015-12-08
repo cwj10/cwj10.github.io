@@ -19,6 +19,18 @@ header{
   position: relative;
 }
 
+header ol {
+        list-style:none;
+}
+header ul {
+        list-style:none;
+}
+header li {
+        list-style:none;
+}
+.header a{
+  text-decoration: none;
+}
 .logo{
   width: 5.5em;
   float: left;
