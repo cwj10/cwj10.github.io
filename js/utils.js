@@ -5,7 +5,8 @@
 var loadData = function(path){
     $.ajax({
         type: "get",
-        cache:true,
+        cache:true
+,
         url:"../data/"+path,
         success: function(data){
             var md = window.markdownit();
