@@ -9,7 +9,8 @@
    {'id':5,'title':'正则表达式','description':'正则表达式','time':'2015-12-04','path':'其他/正则表达式.md'},
    {'id':6,'title':'项目架构','description':'项目架构','time':'2015-12-04','path':'android/项目架构.md','path':'android/项目架构.md'},
    {'id':7,'title':'SharedPreference使用','description':'SharedPreference使用','time':'2015-12-04','path':'android/SharedPreference使用.md'},
-   {'id':8,'title':'屏幕适配','description':'屏幕适配','time':'2015-12-08','path':'android/屏幕适配.md'}
+   {'id':8,'title':'屏幕适配','description':'屏幕适配','time':'2015-12-08','path':'android/屏幕适配.md'},
+   {'id':9,'title':'Android常用网络框架比较','description':'Android常用网络框架比较','time':'2015-12-10','path':'android/Android常用网络框架比较.md'}
 
  ];
 ARTICLES = resetArticle();
