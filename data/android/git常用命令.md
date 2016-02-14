@@ -30,3 +30,6 @@
 - git fetch 从远端仓库下载新分支与数据，git pull 从远端仓库提取数据并尝试合并到当前分支
 
 - git push 推送你的新分支与数据到某个远端仓库
+
+## 参考资料
+[http://www.ihref.com/read-16369.html#4.2](http://www.ihref.com/read-16369.html#4.2)    
