@@ -19,4 +19,4 @@
 - `git reset HEAD -- file`取消缓存已缓存的内容
 - `git rm` 将文件从缓存区移除,将文件从缓存区和你的硬盘中（工作目录）删除. 如果要在工作目录中留着该文件，可以使用 `git rm --cached`
 
-- `git branch` 会列出你在本地的分支,`git branch branchname` 创建新分支,用 `git checkout (branch)` 切换到我们要修改的分支,`git checkout -b (branchname) `创建新分支，并立即切换到它
+- `git branch` 会列出你在本地的分支,`git branch branchname` 创建新分支,用 `git checkout (branch)` 切换到我们要修改的分支,`git checkout -b (branchname) `创建新分支，并立即切换到它 sfda
