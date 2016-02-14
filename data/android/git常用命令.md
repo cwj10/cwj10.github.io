@@ -19,4 +19,14 @@
 - `git reset HEAD -- file`取消缓存已缓存的内容
 - `git rm` 将文件从缓存区移除,将文件从缓存区和你的硬盘中（工作目录）删除. 如果要在工作目录中留着该文件，可以使用 `git rm --cached`
 
-- `git branch` 会列出你在本地的分支,`git branch branchname` 创建新分支,用 `git checkout (branch)` 切换到我们要修改的分支,`git checkout -b (branchname) `创建新分支，并立即切换到它 sfda
+- `git branch` 会列出你在本地的分支,`git branch branchname` 创建新分支,用 `git checkout (branch)` 切换到我们要修改的分支,`git checkout -b (branchname) `创建新分支，并立即切换到新的分支
+
+- git log，我们可以看到已提交的消息，我们可以用 --oneline 选项来查看历史记录的紧凑简洁的版本，它的十分有帮助的 --graph 选项，查看历史中什么时候出现了分支、合并
+
+- git tag -a v1.0 命令给最新一次提交打上标签
+
+- git fetch 更新你的项目，使用 git push 分享你的改动。 你可以用 git remote 管理你的远程仓库
+
+- git fetch 从远端仓库下载新分支与数据，git pull 从远端仓库提取数据并尝试合并到当前分支
+
+- git push 推送你的新分支与数据到某个远端仓库
