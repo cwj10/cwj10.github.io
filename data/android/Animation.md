@@ -1,5 +1,7 @@
 ## Android动画
 - Property animation    
+  在 Honeycomb (Android 3.0)后加入的api，可以引用[nineoldandroids](http://nineoldandroids.com/),在所有android版本使用动画    
+
   改变对象属性的一种动画模式，例如背景色、透明度等。文件位于 res/animator/filename.xml文件夹下。相关java类有ValueAnimator, ObjectAnimator, or AnimatorSet。    
   RESOURCE REFERENCE:    
   In Java: R.animator.filename    
