@@ -78,7 +78,7 @@ var BlogHeader = React.createClass({
          rows.push(<span>{i}</span>);
        }else{
          var temp = i;
-         rows.push(<a href='#' value='num' onClick={this.props.changePage}>{temp}</a>);
+         rows.push(<a href='#' value='num' rel='page' onClick={this.props.changePage}>{temp}</a>);
        }
 
      }
@@ -115,7 +115,10 @@ var BlogHeader = React.createClass({
    changePage:function(e){
       e.preventDefault();
       var page = e.target.getAttribute("value");
+      var rel = e.target.getAttribute("rel");
       if(page&&page == 'num'){
+        page= e.target.innerHTML;
+      }else if(rel == 'page'){
         page= e.target.innerHTML;
       }
       var data = this.getDataBypage(parseInt(page));
