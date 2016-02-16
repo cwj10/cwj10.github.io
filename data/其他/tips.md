@@ -13,8 +13,8 @@
   dispatchTouchEvent onInterceptTouchEvent onTouchEvent
 
 - 自定义控件
-
-动画  tween/frame/NineOldAndroids/常用动画效果
+- 屏幕适配/mipmap/字体/横竖屏/pad/ios/web等
+- 动画  tween/frame/NineOldAndroids/常用动画效果
 
 图片处理/Bitmap处理/缩放/旋转//截取/大小/缓存/读取/压缩/上传/加载/Picasso/image-loader/Glide /Fresco
 
@@ -38,7 +38,6 @@ Android新版本特性
 
 HttpUrlConnection/https/Cache-control/TCP/IP /UDP等协议/WebService
 
-屏幕适配/mipmap/字体/横竖屏/pad/ios/web等
 
 sqlite处理/sdcar存储/增删改查/greendao/优化/sql语法
 
@@ -64,7 +63,7 @@ IM/第三方通信
 
 音频/视频编码解码
 
-git/svn工具/测试工具/monkey
+- git/svn工具/测试工具/monkey
 
 其他第三方框架eventbus/
 
