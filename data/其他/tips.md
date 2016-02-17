@@ -16,13 +16,12 @@
 - 屏幕适配/mipmap/字体/横竖屏/pad/ios/web等
 - 动画  tween/frame/NineOldAndroids/常用动画效果
 
-图片处理/Bitmap处理/缩放/旋转//截取/大小/缓存/读取/压缩/上传/加载/Picasso/image-loader/Glide /Fresco
+- 图片处理/Bitmap处理/缩放/旋转//截取/大小/缓存/读取/压缩/上传/加载/Picasso/image-loader/Glide /Fresco
 
+android数据序列化Serializable/Parcelable
 
 各种UI框架/侧滑/刷新加载/瀑布流等
 
-
-android数据序列化Serializable/Parcelable
 
 Intent显式隐式启动/调用系统/category/data/flag等
 
