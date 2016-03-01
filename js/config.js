@@ -4,7 +4,7 @@
  var ARTICLES = [
    {'id':1,'title':'开发规范','description':'开发规范','time':'2015-12-04','path':'android/开发规范.md'},
    {'id':2,'title':'热更新实现','description':'热更新实现','time':'2015-12-04','path':'android/热更新实现.md'},
-   {'id':3,'title':'数据缓存','description':'数据缓存','time':'2015-12-04','path':'android/数据缓存.md'},
+   {'id':3,'title':'数据存储','description':'数据存储','time':'2015-12-04','path':'android/数据存储.md'},
    {'id':4,'title':'数据解析','description':'数据解析','time':'2015-12-04','path':'android/数据解析.md'},
    {'id':5,'title':'正则表达式','description':'正则表达式','time':'2015-12-04','path':'其他/正则表达式.md'},
    {'id':6,'title':'项目架构','description':'项目架构','time':'2015-12-04','path':'android/项目架构.md','path':'android/项目架构.md'},

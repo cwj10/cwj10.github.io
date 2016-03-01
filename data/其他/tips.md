@@ -18,10 +18,17 @@
 
 - 图片处理/Bitmap处理/缩放/旋转//截取/大小/缓存/读取/压缩/上传/加载/Picasso/image-loader/Glide /Fresco
 
-android数据序列化Serializable/Parcelable
+- android数据序列化Serializable/Parcelable
+
+sqlite处理/sdcar存储/增删改查/greendao/优化/sql语法
+
+Android新版本特性
 
 各种UI框架/侧滑/刷新加载/瀑布流等
 
+系统崩溃处理/CrashHandler/fabric/splunk /umeng /记录/分析/第三方日志
+
+音频/视频编码解码
 
 Intent显式隐式启动/调用系统/category/data/flag等
 
@@ -33,14 +40,7 @@ aidl设计
 
 BroadCastReceiver系统广播/有序无序广播/注册方式
 
-Android新版本特性
-
 HttpUrlConnection/https/Cache-control/TCP/IP /UDP等协议/WebService
-
-
-sqlite处理/sdcar存储/增删改查/greendao/优化/sql语法
-
-系统崩溃处理/CrashHandler/fabric/splunk /umeng /记录/分析/第三方日志
 
 热更新实现/插件化
 
@@ -59,8 +59,6 @@ xml/json解析/第三方解析
 调试工具/hiearchyviewer/ddms/adb/uiautomator
 
 IM/第三方通信
-
-音频/视频编码解码
 
 - git/svn工具/测试工具/monkey
 
