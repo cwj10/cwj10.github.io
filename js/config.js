@@ -15,8 +15,8 @@
    {'id':11,'title':'AsyncTask和Handler的比较','description':'AsyncTask和Handler的比较','time':'2016-02-15','path':'android/AsyncTask和Handler的比较.md'},
    {'id':12,'title':'Android动画','description':'Android动画','time':'2016-02-15','path':'android/Animation.md'},
    {'id':13,'title':'图片处理','description':'图片处理','time':'2016-02-16','path':'android/图片处理.md'},
-   {'id':14,'title':'序列化','description':'序列化','time':'2016-02-17','path':'android/序列化.md'}
-
+   {'id':14,'title':'序列化','description':'序列化','time':'2016-02-17','path':'android/序列化.md'},
+   {'id':15,'title':'性能优化','description':'性能优化','time':'2016-04-25','path':'android/性能优化.md'}
  ];
 ARTICLES = resetArticle();
 
