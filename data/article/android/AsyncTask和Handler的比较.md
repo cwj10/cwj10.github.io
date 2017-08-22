@@ -1,0 +1,5 @@
+## AsyncTask和Handler的比较
+一般使用AsyncTask和Handler都是为了更新ui时不阻塞主线程，来进行的一些异步处理
+- AsyncTask是android提供的的轻量级的异步类，可以直接继承它来实现异步操作，它使用起来简单，快捷，过程可控，有doInBackground、onPostExecute（处理ui更新）、onProgressUpdate（进度）、onPreExecute()、onCancelled（），使用AsyncTask时：Task的实例必须在UI线程创建，execute方法必须在UI线程执行，该task只能被执行一次，多次调用时会出现异常;缺点是使用多个异步操作并需要进行UI变更时，就变得复杂起来了。
+
+- 在Handler实现异步时，涉及到Handler、Looper、Message、Thread三四个对象，Handler就相当于一个处理器，可以在UI线程中实现一个Handler，来负责处理子线程传递过来的和绑定到该Handler线程中的Message对象；每一个Handler都必须关联一个Looper对象，两者是一一对应的，Looper会不断的遍历MessageQueue，把符合条件的Message传给Handler处理，MessageQueque负责存储从子线程中抛出和当前Handler绑定的Message。
