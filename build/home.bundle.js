@@ -52,15 +52,15 @@
 
 	__webpack_require__(5);
 
-	var _react = __webpack_require__(7);
+	var _react = __webpack_require__(9);
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _reactDom = __webpack_require__(8);
+	var _reactDom = __webpack_require__(10);
 
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 
-	var _Home = __webpack_require__(19);
+	var _Home = __webpack_require__(21);
 
 	var _Home2 = _interopRequireDefault(_Home);
 
@@ -101,7 +101,7 @@
 
 
 	// module
-	exports.push([module.id, "::-webkit-input-placeholder{color:#999;}\n::-moz-placeholder{color:#999;}\n:-ms-input-placeholder{color:#999;}\nhtml{font-size: 62.5%;}\n    html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, progress, time, mark, audio, video {\n        background:transparent;\n        border:0;\n        margin:0;\n        outline:0;\n        padding:0;\n        vertical-align:baseline;\n        -webkit-text-size-adjust:none;\n    }\n    body {\n        color:#2c2c2c;\n        font-size:14px;\n        font-size:1.4em;\n        /*font-family:\"微软雅黑\",\"Helvetica Neue\", Helvetica, Arial, sans-serif, \"Microsoft Yahei\",  STHeiti, \"宋体\";\n        *font-family:\"Microsoft Yahei\", \"微软雅黑\", Tahoma, Arial, Helvetica, STHeiti, \"宋体\";*/\n        font-family:\"Hiragino Sans GB\",\"Hiragino Sans GB W3\",\"Microsoft YaHei\";\n    　　line-height: 1.428571429;\n    }\n\n    article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, progress {\n        display:block;\n    }\n\n    /* HTML5 媒体文件跟 img 保持一致 */\n    audio,canvas,video {\n        display: inline-block;*display: inline;*zoom: 1;\n    }\n    /* 要注意表单元素并不继承父级 font 的问题 */\n    body,button,input,select,textarea{\n        font:16px/26px \"\\5FAE\\8F6F\\96C5\\9ED1\",\"\\5B8B\\4F53\",Arial,sans-serif,\"\\9ED1\\4F53\";   /*SimHei SimSun*/ /*\\9ED1\\4F53, SimHei*/\n    }\n    input,select,textarea{\n        font-size:100%;\n    }\n\n    /* IE bug fixed: th 不继承 text-align*/\n    /* 去除默认边框 */\n    fieldset,img{\n        border:0;\n    }\n\n    /* ie6 7 8(q) bug 显示为行内表现 */\n    iframe{\n        display:block;\n    }\n\n    /* 去掉 firefox 下此元素的边框 */\n    abbr,acronym{\n        border:0;font-variant:normal;\n    }\n\nol, ul, li {\n        list-style:none;\n    }\n    blockquote, q {\n        quotes:none;\n    }\n    blockquote:before, blockquote:after, q:before, q:after {\n        content:'';\n        content:none;\n    }\n    :focus {\n        outline:0;\n    }\n    table {\n        border-collapse:collapse;\n        border-spacing:0;\n    }\n    input[type=radio], input[type=checkbox] {\n        vertical-align:middle;\n        margin-top:0;\n    }\n    label[for] {\n        vertical-align:middle;\n    }\n    button,\n    input,\n    optgroup,\n    select,\n    textarea {\n      color: inherit;\n      font: inherit;\n      margin: 0;\n    }\n    button{border:none;}\n    button::-moz-focus-inner,\n    input::-moz-focus-inner {\n      border: 0;\n      padding: 0;\n    }\n    button[disabled],\n    html input[disabled] {\n      cursor: default;\n    }\n    button,\n    select {\n      text-transform: none;\n    }\n    textarea, input{\n        border: 1px solid #b3b3b3;\n        line-height: 100%;\n        resize:none;\n        -webkit-box-sizing:border-box;\n        -moz-box-sizing:border-box;\n        box-sizing:border-box;\n    }\n    textarea:focus, input:focus{\n        border: 1px solid #3C95EC;\n        box-shadow: 0 0 4px ##D6E2ED;\n        outline: medium none;\n    }\n    input[type=\"text\"],input[type=\"email\"],\n    input[type=\"password\"],textarea{width:100%;}\n    input[type=\"checkbox\"],input[type=\"radio\"]{background: none;border:0;}\n\n.clearfix:after { content: \".\"; display: block; height: 0; clear: both; visibility: hidden; }\n.clearfix:after {clear: both;}\n.clearfix { zoom: 1; }\n.clear {clear:both;}\n\n\n    a{color:#000000;text-decoration: none;outline:none;cursor:pointer;}\n    a:hover,a:focus{/*color:#2e90ff;*/color:#329856;text-decoration: none;}\n    a:active,a:hover {outline: 0;}\n    a {\n        blr: expression(this.onFocus=this.blur())\n    }\n    a {\n        outline: none;\n    }\n    img {border: none;vertical-align: middle;-ms-interpolation-mode: bicubic}\n    .text-word{word-break:break-all;}/*英文强制换行*/\n    .max-Width{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}\n\n    h1,h2,h3,h4,h5,h6{font-weight: normal;}\n", ""]);
+	exports.push([module.id, "::-webkit-input-placeholder{color:#999;}\n::-moz-placeholder{color:#999;}\n:-ms-input-placeholder{color:#999;}\nhtml{font-size: 62.5%;}\n    html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, progress, time, mark, audio, video {\n        background:transparent;\n        border:0;\n        margin:0;\n        outline:0;\n        padding:0;\n        vertical-align:baseline;\n        -webkit-text-size-adjust:none;\n    }\n    body {\n        color:#2c2c2c;\n        font-size:14px;\n        font-size:1.4em;\n        /*font-family:\"微软雅黑\",\"Helvetica Neue\", Helvetica, Arial, sans-serif, \"Microsoft Yahei\",  STHeiti, \"宋体\";\n        *font-family:\"Microsoft Yahei\", \"微软雅黑\", Tahoma, Arial, Helvetica, STHeiti, \"宋体\";*/\n        font-family:\"Hiragino Sans GB\",\"Hiragino Sans GB W3\",\"Microsoft YaHei\";\n    　　line-height: 1.428571429;\n    }\n\n    article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, progress {\n        display:block;\n    }\n\n    /* HTML5 媒体文件跟 img 保持一致 */\n    audio,canvas,video {\n        display: inline-block;*display: inline;*zoom: 1;\n    }\n    /* 要注意表单元素并不继承父级 font 的问题 */\n    body,button,input,select,textarea{\n        font:16px/26px \"\\5FAE\\8F6F\\96C5\\9ED1\",\"\\5B8B\\4F53\",Arial,sans-serif,\"\\9ED1\\4F53\";   /*SimHei SimSun*/ /*\\9ED1\\4F53, SimHei*/\n    }\n    input,select,textarea{\n        font-size:100%;\n    }\n\n    /* IE bug fixed: th 不继承 text-align*/\n    /* 去除默认边框 */\n    fieldset,img{\n        border:0;\n    }\n\n    /* ie6 7 8(q) bug 显示为行内表现 */\n    iframe{\n        display:block;\n    }\n\n    /* 去掉 firefox 下此元素的边框 */\n    abbr,acronym{\n        border:0;font-variant:normal;\n    }\n\nol, ul, li {\n        /* list-style:none; */\n    }\n    blockquote, q {\n        quotes:none;\n    }\n    blockquote:before, blockquote:after, q:before, q:after {\n        content:'';\n        content:none;\n    }\n    :focus {\n        outline:0;\n    }\n    table {\n        border-collapse:collapse;\n        border-spacing:0;\n    }\n    input[type=radio], input[type=checkbox] {\n        vertical-align:middle;\n        margin-top:0;\n    }\n    label[for] {\n        vertical-align:middle;\n    }\n    button,\n    input,\n    optgroup,\n    select,\n    textarea {\n      color: inherit;\n      font: inherit;\n      margin: 0;\n    }\n    button{border:none;}\n    button::-moz-focus-inner,\n    input::-moz-focus-inner {\n      border: 0;\n      padding: 0;\n    }\n    button[disabled],\n    html input[disabled] {\n      cursor: default;\n    }\n    button,\n    select {\n      text-transform: none;\n    }\n    textarea, input{\n        border: 1px solid #b3b3b3;\n        line-height: 100%;\n        resize:none;\n        -webkit-box-sizing:border-box;\n        -moz-box-sizing:border-box;\n        box-sizing:border-box;\n    }\n    textarea:focus, input:focus{\n        border: 1px solid #3C95EC;\n        box-shadow: 0 0 4px ##D6E2ED;\n        outline: medium none;\n    }\n    input[type=\"text\"],input[type=\"email\"],\n    input[type=\"password\"],textarea{width:100%;}\n    input[type=\"checkbox\"],input[type=\"radio\"]{background: none;border:0;}\n\n.clearfix:after { content: \".\"; display: block; height: 0; clear: both; visibility: hidden; }\n.clearfix:after {clear: both;}\n.clearfix { zoom: 1; }\n.clear {clear:both;}\n\n\n    a{color:#000000;text-decoration: none;outline:none;cursor:pointer;}\n    a:hover,a:focus{/*color:#2e90ff;*/color:#329856;text-decoration: none;}\n    a:active,a:hover {outline: 0;}\n    a {\n        blr: expression(this.onFocus=this.blur())\n    }\n    a {\n        outline: none;\n    }\n    img {border: none;vertical-align: middle;-ms-interpolation-mode: bicubic}\n    .text-word{word-break:break-all;}/*英文强制换行*/\n    .max-Width{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}\n\n    h1,h2,h3,h4,h5,h6{font-weight: normal;}\n", ""]);
 
 	// exports
 
@@ -455,20 +455,22 @@
 
 
 /***/ },
-/* 7 */
+/* 7 */,
+/* 8 */,
+/* 9 */
 /***/ function(module, exports) {
 
 	module.exports = React;
 
 /***/ },
-/* 8 */
+/* 10 */
 /***/ function(module, exports) {
 
 	module.exports = ReactDOM;
 
 /***/ },
-/* 9 */,
-/* 10 */
+/* 11 */,
+/* 12 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -487,11 +489,11 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var _react = __webpack_require__(7);
+	var _react = __webpack_require__(9);
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _imageAvatarPng = __webpack_require__(11);
+	var _imageAvatarPng = __webpack_require__(13);
 
 	var _imageAvatarPng2 = _interopRequireDefault(_imageAvatarPng);
 
@@ -570,13 +572,13 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 11 */
+/* 13 */
 /***/ function(module, exports) {
 
 	module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsSAAALEgHS3X78AAACiklEQVR42u2a6YrCMBCA+/6v462oIB54gQeK9329RZYv0KUs7Lo1Tdrq/BgsbZLpfMlMZ2bXu9/v6pPFEwACQAAIAAEgAASAABAAAkAACAAB4EAej4f+vV6v6nK5aOE6+OwtAWAcxi4WC9XpdFStVlPFYlGVSiV9zT2eMcYlCGcA1uu1ajQaKpvNqkwmo39zuZyW4D3GbDYbZxCcAJjP53qnMTCfz/8qPoxyuaxPw1sAYDcxCOP+Mj4oQKhUKmq73aYbAP7cbDZDGR88DcxljVQCwIeXy6UqFAqhjfeFuaxhMx5YPQH9fv+l3Q/KcDhMrwu0Wi0jAMxtt9vpBfCq//+MA3IC0gpgMBgY+X/qYwAJkMlXgFTZdkJkFcD5fNap7asA8H/WSHUmyA6SCYY1nkyQHCD1qfDtdlPT6VTXAv8JiIxhLHOY+xbFEIbMZjNd9j4DUK/XdexwYbzzhsjhcFCj0UjHBY44roFwzT2eMebtW2IUOPv9XleKCNe2ix5nAChcbEqiAdDbYzep420Ia/v9w8QBOJ1Oqtvt6sSH9pYNYe1er6d1JQoAEZsX8/t8punvs5YZZXZUX4lIAOx2u9BtLxMI6EJnIgAQmCaTiVHO/0qnCJ1RBEUviuOP77vY/eApQGcUbmAM4Hg86uzNlfHBjBHdsQLgCPJ5Ind3DQCd6DZ1A+MTMB6PnRvvC7pjdwH+pufS/4NxAN2xAvD9Py4AUcQBz8T/V6uVblvF5QLo5h1M4oARALo9cRnvC+8QCwC/vqfJEZcLoNu0f+BF0fmtVqvfL+VC0IVOdCciEyQvp4fHZ8mFoAudicgEXTRBbDZH5L/EBIAAEAACQAAIAAEgAASAABAAHylfiWC+G9Ggo7QAAAAfelRYdENyZWF0aW9uIFRpbWUAAHjaMzDXNzLUNzQEAAcBAYs1xrW/AAAAKHpUWHRTb2Z0d2FyZQAAeNrzTUwuys9NTclMVHDLLEotzy/KLlawAABgFQgngoM2iwAAAABJRU5ErkJggg=="
 
 /***/ },
-/* 12 */
+/* 14 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -595,7 +597,7 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var _react = __webpack_require__(7);
+	var _react = __webpack_require__(9);
 
 	var _react2 = _interopRequireDefault(_react);
 
@@ -626,7 +628,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 13 */
+/* 15 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -645,11 +647,11 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var _react = __webpack_require__(7);
+	var _react = __webpack_require__(9);
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _Utils = __webpack_require__(14);
+	var _Utils = __webpack_require__(16);
 
 	var _Utils2 = _interopRequireDefault(_Utils);
 
@@ -692,7 +694,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 14 */
+/* 16 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -716,14 +718,14 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 15 */,
-/* 16 */
+/* 17 */,
+/* 18 */
 /***/ function(module, exports) {
 
 	module.exports = $;
 
 /***/ },
-/* 17 */
+/* 19 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -734,11 +736,11 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-	var _jquery = __webpack_require__(16);
+	var _jquery = __webpack_require__(18);
 
 	var _jquery2 = _interopRequireDefault(_jquery);
 
-	var _Utils = __webpack_require__(14);
+	var _Utils = __webpack_require__(16);
 
 	var _Utils2 = _interopRequireDefault(_Utils);
 
@@ -803,6 +805,10 @@
 	      cache: true,
 	      url: _Utils2['default'].getPath(path), //有数据库时从数据库查询
 	      success: function success(data) {
+
+	        // var converter = new showdown.Converter();
+	        // var result = converter.makeHtml(data); 
+
 	        var md = window.markdownit();
 	        var result = md.render(data);
 	        document.getElementById(elementId).innerHTML = result;
@@ -813,7 +819,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 18 */
+/* 20 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -832,7 +838,7 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var _react = __webpack_require__(7);
+	var _react = __webpack_require__(9);
 
 	var _react2 = _interopRequireDefault(_react);
 
@@ -883,7 +889,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 19 */
+/* 21 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -902,35 +908,35 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var _react = __webpack_require__(7);
+	var _react = __webpack_require__(9);
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _commonAside = __webpack_require__(10);
+	var _commonAside = __webpack_require__(12);
 
 	var _commonAside2 = _interopRequireDefault(_commonAside);
 
-	var _commonFooter = __webpack_require__(12);
+	var _commonFooter = __webpack_require__(14);
 
 	var _commonFooter2 = _interopRequireDefault(_commonFooter);
 
-	var _commonHeader = __webpack_require__(13);
+	var _commonHeader = __webpack_require__(15);
 
 	var _commonHeader2 = _interopRequireDefault(_commonHeader);
 
-	var _ArticleList = __webpack_require__(20);
+	var _ArticleList = __webpack_require__(22);
 
 	var _ArticleList2 = _interopRequireDefault(_ArticleList);
 
-	var _commonPager = __webpack_require__(21);
+	var _commonPager = __webpack_require__(23);
 
 	var _commonPager2 = _interopRequireDefault(_commonPager);
 
-	var _api = __webpack_require__(17);
+	var _api = __webpack_require__(19);
 
 	var _api2 = _interopRequireDefault(_api);
 
-	var _Utils = __webpack_require__(14);
+	var _Utils = __webpack_require__(16);
 
 	var _Utils2 = _interopRequireDefault(_Utils);
 
@@ -984,7 +990,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 20 */
+/* 22 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1003,19 +1009,19 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var _react = __webpack_require__(7);
+	var _react = __webpack_require__(9);
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _jquery = __webpack_require__(16);
+	var _jquery = __webpack_require__(18);
 
 	var _jquery2 = _interopRequireDefault(_jquery);
 
-	var _Utils = __webpack_require__(14);
+	var _Utils = __webpack_require__(16);
 
 	var _Utils2 = _interopRequireDefault(_Utils);
 
-	var _commonTag = __webpack_require__(18);
+	var _commonTag = __webpack_require__(20);
 
 	var _commonTag2 = _interopRequireDefault(_commonTag);
 
@@ -1103,7 +1109,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 21 */
+/* 23 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -1122,7 +1128,7 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var _react = __webpack_require__(7);
+	var _react = __webpack_require__(9);
 
 	var _react2 = _interopRequireDefault(_react);
 

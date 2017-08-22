@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import Utils from './Utils'
+import Utils from './Utils';
 
 export default {
   getArticleList(callback){
@@ -62,6 +62,10 @@ export default {
         cache:true,
         url:Utils.getPath(path),//有数据库时从数据库查询
         success: function(data){
+
+          // var converter = new showdown.Converter(); 
+          // var result = converter.makeHtml(data);  
+
           var md = window.markdownit();
           var result = md.render(data);
           document.getElementById(elementId).innerHTML = result;

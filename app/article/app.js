@@ -1,5 +1,6 @@
-import './../../css/reset.css'
+import './../../css/reset.css';
 import './../../css/app.css';
+import './../../css/github-markdown.css';
 
 import React from 'react';
 import ReactDOM from 'react-dom';

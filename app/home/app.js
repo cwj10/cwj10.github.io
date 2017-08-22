@@ -1,4 +1,4 @@
-import './../../css/reset.css'
+import './../../css/reset.css';
 import './../../css/app.css';
 
 import React from 'react';

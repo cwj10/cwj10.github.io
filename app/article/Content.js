@@ -19,11 +19,12 @@ export default class Content extends  React.Component{
   getArticle(){
     return (
        <div className="article">
+         <h1 className="title"><a href="">{this.state.article.title}</a></h1>
          <div className="time">
            <a href="">{this.state.article.created_at}</a>
          </div>
-         <h1 className="title"><a href="">{this.state.article.title}</a></h1>
-         <div id='content' className="summary"></div>
+         
+         <div id='content' className="markdown-body"></div>
          <Tag tag={this.state.article.tag}></Tag>
        </div>
        );
