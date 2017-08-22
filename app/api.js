@@ -4,7 +4,7 @@ import Utils from './Utils'
 export default {
   getArticleList(callback){
     var page = Utils.getQueryString("page");
-    var limit = 2;
+    var limit = 5;
     $.ajax({
       type: "get",
       cache:true,

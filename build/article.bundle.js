@@ -586,11 +586,19 @@
 	        _react2['default'].createElement(
 	          'div',
 	          { className: 'about  clearfix' },
-	          _react2['default'].createElement('img', { className: 'avatar', src: _imageAvatarPng2['default'] }),
+	          _react2['default'].createElement(
+	            'a',
+	            { href: '/view/about.html' },
+	            _react2['default'].createElement('img', { className: 'avatar', src: _imageAvatarPng2['default'] })
+	          ),
 	          _react2['default'].createElement(
 	            'h2',
 	            null,
-	            '关于我'
+	            _react2['default'].createElement(
+	              'a',
+	              { href: '/view/about.html' },
+	              ' 关于我'
+	            )
 	          ),
 	          _react2['default'].createElement(
 	            'div',
@@ -618,7 +626,7 @@
 	              null,
 	              _react2['default'].createElement(
 	                'a',
-	                { href: '' },
+	                { href: 'http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=kPPn_r7z--T14tDh4b7z--0' },
 	                '联系我'
 	              )
 	            )
@@ -941,7 +949,7 @@
 	exports['default'] = {
 	  getArticleList: function getArticleList(callback) {
 	    var page = _Utils2['default'].getQueryString("page");
-	    var limit = 2;
+	    var limit = 5;
 	    _jquery2['default'].ajax({
 	      type: "get",
 	      cache: true,

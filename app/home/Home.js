@@ -14,8 +14,10 @@ export default class Home extends  React.Component{
   }
   componentDidMount() {
     Api.getArticleList((data,total,page)=>{
-      var prePage = Utils.getPath()+"?page="+(page-1);
-      var nextPage = Utils.getPath()+"?page="+(page+1);
+      var preNum = parseInt(page)-1;
+      var nextNum = parseInt(page)+1;
+      var prePage = Utils.getPath()+"?page="+preNum;
+      var nextPage = Utils.getPath()+"?page="+nextNum;
       this.setState({articleList: data,total:total,page:page,prePage:prePage,nextPage:nextPage});
     });
   }

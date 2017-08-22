@@ -7,8 +7,8 @@ export default class Aside extends  React.Component{
     return(
       <div className="aside">
         <div className="about  clearfix">
-          <img className="avatar" src={avatar}></img>
-          <h2>关于我</h2>
+          <a href="/view/about.html"><img className="avatar" src={avatar}></img></a>
+          <h2><a href="/view/about.html"> 关于我</a></h2>
           <div className="content">cwj</div>
         </div>
         <div className="tool">
@@ -17,7 +17,7 @@ export default class Aside extends  React.Component{
               <a href="">归档</a>
             </li>
             <li>
-              <a href="">联系我</a>
+              <a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=kPPn_r7z--T14tDh4b7z--0">联系我</a>
             </li>
           </ul>
         </div>

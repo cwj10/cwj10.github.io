@@ -513,11 +513,19 @@
 	        _react2['default'].createElement(
 	          'div',
 	          { className: 'about  clearfix' },
-	          _react2['default'].createElement('img', { className: 'avatar', src: _imageAvatarPng2['default'] }),
+	          _react2['default'].createElement(
+	            'a',
+	            { href: '/view/about.html' },
+	            _react2['default'].createElement('img', { className: 'avatar', src: _imageAvatarPng2['default'] })
+	          ),
 	          _react2['default'].createElement(
 	            'h2',
 	            null,
-	            '关于我'
+	            _react2['default'].createElement(
+	              'a',
+	              { href: '/view/about.html' },
+	              ' 关于我'
+	            )
 	          ),
 	          _react2['default'].createElement(
 	            'div',
@@ -545,7 +553,7 @@
 	              null,
 	              _react2['default'].createElement(
 	                'a',
-	                { href: '' },
+	                { href: 'http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=kPPn_r7z--T14tDh4b7z--0' },
 	                '联系我'
 	              )
 	            )
@@ -737,7 +745,7 @@
 	exports['default'] = {
 	  getArticleList: function getArticleList(callback) {
 	    var page = _Utils2['default'].getQueryString("page");
-	    var limit = 2;
+	    var limit = 5;
 	    _jquery2['default'].ajax({
 	      type: "get",
 	      cache: true,
@@ -942,8 +950,10 @@
 	      var _this = this;
 
 	      _api2['default'].getArticleList(function (data, total, page) {
-	        var prePage = _Utils2['default'].getPath() + "?page=" + (page - 1);
-	        var nextPage = _Utils2['default'].getPath() + "?page=" + (page + 1);
+	        var preNum = parseInt(page) - 1;
+	        var nextNum = parseInt(page) + 1;
+	        var prePage = _Utils2['default'].getPath() + "?page=" + preNum;
+	        var nextPage = _Utils2['default'].getPath() + "?page=" + nextNum;
 	        _this.setState({ articleList: data, total: total, page: page, prePage: prePage, nextPage: nextPage });
 	      });
 	    }
@@ -1027,7 +1037,9 @@
 	          { className: 'photo' },
 	          _react2['default'].createElement(
 	            'a',
-	            { href: '' },
+	            { href: "./view/article.html" + "?id=" + article.id },
+	            article.created_at,
+	            '>',
 	            _react2['default'].createElement('img', { src: _Utils2['default'].getPath(article.cover) })
 	          )
 	        );
