@@ -1038,6 +1038,8 @@
 	          _react2['default'].createElement(
 	            'a',
 	            { href: "./view/article.html" + "?id=" + article.id },
+	            article.created_at,
+	            '>',
 	            _react2['default'].createElement('img', { src: _Utils2['default'].getPath(article.cover) })
 	          )
 	        );
