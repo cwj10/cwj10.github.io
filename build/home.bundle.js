@@ -669,7 +669,7 @@
 	            _react2['default'].createElement(
 	              'a',
 	              { href: _Utils2['default'].getPath(), title: '首页', rel: 'prefetch' },
-	              'Hello, 吴丹'
+	              '始于代码'
 	            )
 	          )
 	        )
