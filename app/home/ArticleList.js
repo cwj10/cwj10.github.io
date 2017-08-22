@@ -12,7 +12,7 @@ export default class ArticleList extends  React.Component{
     if(article.cover){
       return(
         <div className="photo">
-          <a href={"./view/article.html"+"?id="+article.id}>{article.created_at}><img src={Utils.getPath(article.cover)} /></a>
+          <a href={"./view/article.html"+"?id="+article.id}><img src={Utils.getPath(article.cover)} /></a>
         </div>
       )
     }
