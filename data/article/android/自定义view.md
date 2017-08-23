@@ -1,5 +1,4 @@
-## 自定义view
-- ###### 自定义属性
+### 自定义属性
 
 有两种方式可以直接在xml中设置自定义的属性
 
@@ -33,7 +32,7 @@ TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.MyImag
 int resId = typedArray.getResourceId(R.styleable.MyImage_src, 0);
 typedArray.recycle();
 ```
-- ###### 基本操作
+### 基本操作
 
 1、measure操作
 
