@@ -1,8 +1,9 @@
 ### View事件分发
+一次完整的事件传递主要包括三个阶段，分别是事件的分发、拦截和消费。
 
 ViewGroup相关的事件有三个方法：dispatchTouchEvent、onInterceptTouchEvent、onTouchEvent;View相关的事件有两个方法：dispatchTouchEvent、onTouchEvent。
 - `public boolean dispatchTouchEvent(MotionEvent ev)`    
-  用来进行事件分发，返回结果手挡但钱View的onTouchEvent和下级View的dispatchTouchEvent方法的影响，表示是否消耗当前事件。
+  用来进行事件分发，返回结果受到当前View的onTouchEvent和下级View的dispatchTouchEvent方法的影响，表示是否消耗当前事件。
 - `public boolean onInterceptTouchEvent(MotionEvent ev)`    
   用来判断是否拦截某个事件，如果当前View拦截了某个事件，那么同一个事件序列中，当前View无法再次接收到事件。
 - `public boolean onTouchEvent(MotionEvent event)`    
