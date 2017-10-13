@@ -1,5 +1,5 @@
 [
- {"id":"4","title":"性能优化","summary":"Android性能优化分析","cover":"","path":"\/data\/article\/android\/性能优化.md","author":"cwj","tag":"view事件分发","created_at":"2017-10-13 18:00:00"},
+ {"id":"4","title":"性能优化","summary":"Android性能优化分析","cover":"","path":"\/data\/article\/android\/性能优化.md","author":"cwj","tag":"性能优化","created_at":"2017-10-13 18:00:00"},
  {"id":"3","title":"View的事件分发","summary":"View的事件分发流程及滑动冲突解决办法","cover":"","path":"\/data\/article\/android\/View事件分发.md","author":"cwj","tag":"view事件分发","created_at":"2016-09-16 11:06:43"},
  {"id":"2","title":"自定义View","summary":"自定义View","cover":"","path":"\/data\/article\/android\/自定义view.md","author":"cwj","tag":"view","created_at":"2016-08-24 20:32:52"},
  {"id":"1","title":"屏幕适配","summary":"屏幕适配","cover":"\/data\/image\/bird.jpg","path":"\/data\/article\/android\/屏幕适配.md","author":"cwj","tag":"屏幕适配","created_at":"2016-08-12 15:18:27"}
